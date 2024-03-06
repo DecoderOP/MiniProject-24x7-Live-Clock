@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+.clock{
+    background-color: rgba(104, 123, 243, 0.491);
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bolder;
+    color: rgb(238, 228, 237);
+    backdrop-filter: blur(8px);
+    text-shadow: 5px 5px 5px black;
+}
+.date{
+    background-color: rgba(104, 123, 243, 0.491);
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    color: rgb(238, 228, 237);
+    backdrop-filter: blur(8px);
+    text-shadow: 5px 5px 5px black;
+}
